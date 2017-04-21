@@ -10,7 +10,7 @@ void loop() {
   int i;
   for (i=0;i<51;i++){
     int j=i*5;
-    analogWrite(9, i*5);  
+    analogWrite(9, i*5);    
     Serial.print("Brightness : ");
     Serial.println(j); 
     delay(50);  
